@@ -32,11 +32,12 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
+
 <!-- OVERVIEW -->
 
 ## Overview
 
-(resources/Screenshot.jpg)
+![Screenshot](https://github.com/JuanAndresSalas/404-Not-Found-DevChallenges/assets/121072759/94876805-4b83-4104-bb51-dfdbb6f04d9b)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
