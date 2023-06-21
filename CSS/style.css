@@ -21,7 +21,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 2%;
-    height: 500px;
+    
 }
 
 /*Image*/
@@ -134,3 +134,99 @@ footer p{
     color: #BDBDBD;
 }
   
+
+/*RESPONSIVE*/
+
+@media (max-width: 767px) {
+    .header-text{
+        color: #333;
+        font-size: 24px;
+        font-family: Inconsolata;
+        font-weight: 700;
+        letter-spacing: -1.92px;
+        text-transform: uppercase;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    main section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+    
+    .section-img img{
+        height: 75%;
+        width: 75%;
+        border-radius: 0px;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-text{
+        width: 100%;
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    
+    .section-text div{
+        height: auto
+    }
+
+    .text-1{
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: var(--gray-1, #333);
+        font-size: 48px;
+        font-family: Space Mono;
+        font-weight: 700;
+        letter-spacing: -1.68px;
+    }
+    
+    .text-2{
+        display: flex;
+        width: 328px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: var(--gray-2, #4F4F4F);
+        font-size: 18px;
+        font-family: Space Mono;
+        letter-spacing: -0.63px;
+    }
+    .btn-home{
+        width: 216px;
+        height: 68px;
+        flex-shrink: 0;
+        margin-top: 10%;
+    }
+    
+
+
+    footer {
+        display: flex;
+        place-content: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: 20%;
+        
+    }
+  }
